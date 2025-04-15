@@ -13,7 +13,25 @@
         android:theme="@style/Theme.CrudMate"
         tools:targetApi="31">
         <activity
+            android:name=".UpdateDetailsActivity"
+            android:exported="false"/>
+        <activity
+            android:name=".UserDetails"
+            android:exported="false" />
+        <activity
+            android:name=".item_user"
+            android:exported="false" />
+        <activity
+            android:name=".SignUpPage"
+            android:exported="false" />
+        <activity
+            android:name=".LoginPage"
+            android:exported="false" />
+        <activity
             android:name=".MainActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Splashscreen"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
